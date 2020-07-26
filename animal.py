@@ -1,3 +1,4 @@
+#loads Images and boxes
 import os
 import random
 import game_config as gc 
