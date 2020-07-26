@@ -11,7 +11,7 @@ def findin(x,y):
 pygame.init()
 display.set_caption("Memory Game By Rahul")
 screen=display.set_mode((512,512))
-matched =image.load('assets/matched.png')
+matched =image.load('matched.png')
 run=True
 tiles=[Animal(i) for i in range(0,gc.numtotal)]
 crimg=[]
