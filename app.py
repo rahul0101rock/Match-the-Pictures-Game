@@ -22,7 +22,7 @@ def findin(x,y):
 pygame.init()
 mixer.init()
 mixer.music.set_volume(0.7)
-display.set_caption("Mermory Game By Rahul")
+display.set_caption("Memory Game By Rahul")
 screen=display.set_mode((512,512))
 matched =image.load('matched.png')
 run=True
