@@ -9,7 +9,7 @@ def findin(x,y):
     index=row*gc.numside+col
     return(index)
 pygame.init()
-display.set_caption("Rahul's game")
+display.set_caption("Memory Game By Rahul")
 screen=display.set_mode((512,512))
 matched =image.load('assets/matched.png')
 run=True
