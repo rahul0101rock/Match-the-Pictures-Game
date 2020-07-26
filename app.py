@@ -60,6 +60,7 @@ while run:
             tiles[img1].skip=True
             tiles[img2].skip=True
             mixer.music.load("tada.mp3")
+            mixer.music.set_volume(0.5)
             mixer.music.play()
             sleep(0.4)
             screen.blit(matched,(0,0))
@@ -70,6 +71,7 @@ while run:
     if tskip ==len(tiles):
         run=False
 mixer.music.load("applause.mp3")
+mixer.music.set_volume(0.5)
 mixer.music.play()
 message_box("Congrats","Game Completed")
 mixer.music.stop()
