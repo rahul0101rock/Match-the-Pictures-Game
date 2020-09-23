@@ -1,4 +1,4 @@
-# MemoryGame
+# Match the Pictures (Game)
 ## Click on the squares and match the same images. Challenging memory game to exercise your brain.
 app.py is Main Game File
 animal.py Loads Images from assets folder
